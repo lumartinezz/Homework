@@ -5,5 +5,5 @@ OK  2. Agregar  middleware
 OK  3. Ts / Bodyparser
 OK  4. Tiene que tener una ruta que tenga un GET y devuelva un “hola mundo”
 OK  5. Otra ruta que tenga un POST y que devuelva en el body un Status 200 y un OK
-    6. Poner un middleware que tenga un moggr?? (express winston)
+    6. Poner un middleware que tenga un logger (express winston)
     7. Separar con un router / express.router - app.use y pasamos el router

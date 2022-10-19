@@ -1,13 +1,13 @@
 import { RequestHandler } from 'express'
 
-type Controller = RequestHandler<{}, any, any, any, Record<string, any>>
+type userController = RequestHandler<{}, any, any, any, Record<string, any>>
 
-export const getUser: Controller = (req, res) => {
+export const getUser: userController = (req, res) => {
     console.log(req.query)
     res.send(`Hola Mundo`)
 }
 
-const createUser: Controller = (req, res) => {
+export const createUser: userController = (req, res) => {
     console.log(req.body)
     res.send(`Hola Mundo`)
 }
