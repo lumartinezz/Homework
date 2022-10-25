@@ -1,0 +1,30 @@
+{
+  "name": "4.-basededatos",
+  "version": "1.0.0",
+  "description": "tarea Servidor de datos",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "nodemon -e ts -w ./src/index.ts -x ts-node ./src/index.ts",
+    "start:server": "nodemon -e ts -w .src/server/ -x ts-node ./src/server/index.ts",
+    "start:client": "nodemon -e ts -w .src/client/ -x ts-node ./src/client/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "prisma": "^4.5.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.5.0",
+    "@types/node": "^18.11.5",
+    "axios": "^1.1.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
+}
